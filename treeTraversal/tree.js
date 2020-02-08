@@ -1,7 +1,5 @@
 // How to traverse a tree with breadthFirst and depthFirst approaches.
 /*
-execute an entire level before moving down.
-a,b,c,d,e,f,g,h,i,j,k,l,m
                  (a)
               /   |   \
             (b)  (c)   (d)
