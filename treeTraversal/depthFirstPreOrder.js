@@ -2,6 +2,7 @@ import { a,b,c,e,h,d, logger} from './tree.js'
 
 /*
 Go down as far as you can, executing as you go down.
+a,b,e,k,l,c,f,g,h,m,d,i,j
                  (a)
               /   |   \
             (b)  (c)   (d)
@@ -10,10 +11,10 @@ Go down as far as you can, executing as you go down.
         /|            |
       (k)(l)         (m)
 */
+
+// we execute the callback on the node going through each children of that node and recursivly call depthFirstPreOrder
 const depthFirstPreOrder = (node, callback)=> {
-  // we execute the callback on the node
   callback(node)
-  // going through each children of that node and recursivly call depthFirstPreOrder
   node.children.forEach(child => depthFirstPreOrder(child, callback))
 }
-depthFirstPreOrder(d, logger)
+depthFirstPreOrder(a, logger)
