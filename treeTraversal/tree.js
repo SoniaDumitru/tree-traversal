@@ -41,7 +41,7 @@ c.children.push(f,g,h)
 h.children.push(m)
 d.children.push(i,i)
 
-// callback that we will use for testing, taking the node and log that's node value
+// callback function used for testing; taking the node and log the value of that node
 const logger = node => {
   console.log(node.value)
 }
