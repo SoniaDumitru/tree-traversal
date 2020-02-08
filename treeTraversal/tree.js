@@ -49,4 +49,6 @@ const logger = node => {
 }
 
 // export root node of the tree and the logger function
-module.exports = {a,logger}
+// module.exports = { a,logger }
+export { a,b,c,e,h,d }
+export { logger }
