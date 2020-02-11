@@ -12,7 +12,7 @@ a,b,e,k,l,c,f,g,h,m,d,i,j
       (k)(l)         (m)
 */
 
-// we execute the callback on the node going through each children of that node and recursivly call depthFirstPreOrder
+// we execute the callback on the node going through each children of that node and recursively call depthFirstPreOrder
 const depthFirstPreOrder = (node, callback)=> {
   callback(node)
   node.children.forEach(child => depthFirstPreOrder(child, callback))
