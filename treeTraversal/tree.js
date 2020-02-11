@@ -1,13 +1,4 @@
 // How to traverse a tree with breadthFirst and depthFirst approaches.
-/*
-                 (a)
-              /   |   \
-            (b)  (c)   (d)
-          /     / | \    | \
-        (e)  (f)  (g)(h) (i)(j)
-        /|            |
-      (k)(l)         (m)
-*/
 
 // function to create a node with value and children property
 function node(value) {
@@ -31,6 +22,16 @@ const j = node('j')
 const k = node('k')
 const l = node('l')
 const m = node('m')
+
+/*
+                 (a)
+              /   |   \
+            (b)  (c)   (d)
+          /     / | \    | \
+        (e)  (f)  (g)(h) (i)(j)
+        /|            |
+      (k)(l)         (m)
+*/
 
 
 // push the appropriate children
